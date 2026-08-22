@@ -1,0 +1,18 @@
+
+/** 
+ * Visisted and unvisited link should be blue and not underlined.
+ */
+a:link, a:visited {
+  color          : blue;
+  text-decoration: none;
+}
+
+/**
+ * Hovered (mouse over) and active link (clicked) should be red and underlined.
+ * The cursor should be a help cursor (question mark).
+ */
+a:hover, a:active {
+  color          : red;
+  text-decoration: underline;
+  cursor         : help;
+}
