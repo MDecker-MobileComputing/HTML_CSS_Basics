@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;  /* ALL fonts without serifs. */
+    background :  aqua;
+}
+
+#container, header, article, aside, footer {
+    box-sizing: border-box;
+}
+
+#container {
+    width       : 960px;
+    background  : yellow;
+    padding     : 0.5em;   /* Space around all four sides */
+    margin-left : auto;
+    margin-right: auto;    /* Set the left and right margins to "auto" for centering. */
+}
+
+header {
+    width:      940px;
+    background: silver;
+    padding:    0.5em;    /* Space around all four sides */
+}
+
+article {
+    background: orange;
+    width:      680px;
+    float:      left;
+    padding:    0.5em;    /* Space around all four sides */
+}
+
+aside {
+    background: white;
+    width     : 250px;
+    float     : right;
+    padding   : 0.5em;    /* Space around all four sides */
+}
+
+footer {
+    width     : 940px;     /* Can also be omitted, because a block element spans the full width of its container */
+    clear     : both;
+    background: silver;
+    padding   : 0.5em;    /* Space around all four sides */
+}
