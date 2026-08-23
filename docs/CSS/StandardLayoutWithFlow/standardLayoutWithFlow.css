@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;  /* ALL fonts without serifs. */
+    background :  aqua;
+}
+
+#container, header, article, aside, footer {
+    box-sizing: border-box;
+}
+
+#container {
+    width:        960px;
+    background:   yellow;
+    padding:      10px;    /* Space around all four sides */
+    margin-left:  auto;
+    margin-right: auto;    /* Set the left and right margins to "auto" for centering. */
+}
+
+header {
+    width:      940px;
+    background: silver;
+}
+
+article {
+    background: orange;
+    width:      680px;
+    float:      left;
+}
+
+aside {
+    background:   white;
+    width:        250px;
+    float:        right;
+    padding-left: 10px;
+}
+
+footer {
+    width:      940px;     /* Can also be omitted */
+    clear:      both;
+    background: silver;
+}
