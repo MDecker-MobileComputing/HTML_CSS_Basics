@@ -22,10 +22,12 @@ header {
 }
 
 article {
-    background: orange;
-    width:      680px;
-    float:      left;
-    padding:    0.5em;    /* Space around all four sides */
+    background   : orange;
+    width        : 680px;
+    float        : left;
+    padding      : 0.5em;    /* Space around all four sides */
+    margin-top   : 0.5em;    /* Space above the element */
+    margin-bottom: 0.5em;    /* Space below the element */
 }
 
 aside {
@@ -33,10 +35,12 @@ aside {
     width     : 250px;
     float     : right;
     padding   : 0.5em;    /* Space around all four sides */
+    margin-top   : 0.5em;    /* Space above the element */
+    margin-bottom: 0.5em;    /* Space below the element */
 }
 
 footer {
-    width     : 940px;     /* Can also be omitted, because a block element spans the full width of its container */
+    width     : 940px;    /* Can also be omitted, because a block element spans the full width of its container */
     clear     : both;
     background: silver;
     padding   : 0.5em;    /* Space around all four sides */
