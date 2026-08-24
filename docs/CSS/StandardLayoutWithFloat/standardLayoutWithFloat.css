@@ -31,10 +31,10 @@ article {
 }
 
 aside {
-    background: white;
-    width     : 250px;
-    float     : right;
-    padding   : 0.5em;    /* Space around all four sides */
+    background   : white;
+    width        : 250px;
+    float        : right;
+    padding      : 0.5em;    /* Space around all four sides */
     margin-top   : 0.5em;    /* Space above the element */
     margin-bottom: 0.5em;    /* Space below the element */
 }
