@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    padding    : 0.5em;
+}
+
+code { font-size: 115%; }
+
+h1 { margin-bottom: 1em; }
+h2 { margin-top   : 2em; }
+
+div { border: 2px solid black; }
+
+.container-general {
+    background: orange;
+    margin    : 1em;
+    width     : 50em;
+    height    : 5em;
+    display   : flex;
+    gap       : 0.2em;
+}
+
+.child-general {
+    background   : greenyellow;
+    margin-top   : 0.3em;
+    margin-bottom: 0.3em;
+    padding-top  : 0.3em;
+    width        : 20em;
+    text-align   : center;
+}
+
+
+.flex-item-shrink-0 { flex-shrink: 0; }
+.flex-item-shrink-1 { flex-shrink: 1; } /* default value */
+.flex-item-shrink-4 { flex-shrink: 4; }
+.flex-item-shrink-6 { flex-shrink: 6; }

@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    padding    : 0.5em;
+}
+
+code { font-size: 115%; }
+
+h1 { margin-bottom: 1em; }
+h2 { margin-top   : 2em; }
+
+div { border: 2px solid black; }
+
+.container-general {
+    background    : orange;
+    margin        : 1em;
+    width         : 90vw;
+    height        : 5em;
+    display       : flex;
+    flex-direction: row;    /* default value */
+    flex-wrap     : nowrap; /* default value */
+    gap           : 0.2em;
+}
+
+.child-general {
+    background   : greenyellow;
+    padding      : 1.5em 0 1.5em 0;
+    text-align   : center;
+    font-weight  : bold;
+    margin-top   : 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.flex-item-grow-0 { flex-grow: 0; }
+.flex-item-grow-1 { flex-grow: 1; }
+.flex-item-grow-2 { flex-grow: 2; }
+.flex-item-grow-3 { flex-grow: 3; }
