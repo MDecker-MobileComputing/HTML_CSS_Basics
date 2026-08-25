@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    padding    : 0.5em;
+}
+
+code { font-size: 110%; }
+
+h2 { margin-top: 2em; }
+
+div { border: 2px solid black; }
+
+.container-general {
+    background     : orange;
+    margin         : 1em;
+    width          : 50em;
+    height         : 15em;
+    display        : flex;
+    flex-direction : row;    /* default value */
+    flex-wrap      : nowrap; /* default value */
+    justify-content: center;
+}
+
+.align-flex-start { align-items: flex-start; }
+.align-flex-end   { align-items: flex-end;   }
+.align-center     { align-items: center;     }
+.align-stretch    { align-items: stretch;    }
+.align-baseline   { align-items: baseline;   }
+
+.child-general {
+    background: greenyellow;
+    padding   : .5em;
+    margin    : .5em;
+    width     : 5em;
+}
+
+.child-1 { height: 4em; }
+.child-2 { height: 3em; }
+.child-3 { height: 5em; }
+.child-4 { height: 2em; }
+.child-5 { height: 6em; }
+
+.padding-top-0 { padding-top: 0em; }
+.padding-top-1 { padding-top: 1em; }
+.padding-top-2 { padding-top: 2em; }
+.padding-top-3 { padding-top: 3em; }

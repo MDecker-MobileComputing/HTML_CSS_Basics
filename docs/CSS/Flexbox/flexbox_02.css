@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    padding    : 0.5em;
+}
+
+code { font-size: 110%; }
+
+h2 { margin-top: 2em; }
+
+div { border: 2px solid black; }
+
+.container-general {
+    background    : orange;
+    margin        : 1em;
+    width         : 15em;
+    display       : flex;
+    flex-direction: row; /* Default Value */
+}
+
+.container-wrap-aus {
+    flex-wrap: nowrap; /* Default Value */
+}
+
+.container-wrap-an {
+    flex-wrap: wrap;
+}
+
+.container-wrap-umgekehrt {
+    flex-wrap: wrap-reverse;
+}
+
+.child-in-container {
+    background: greenyellow;
+    padding   : .5em;
+    margin    : .5em;
+    width     : 5em;
+    height    : 5em;
+}
