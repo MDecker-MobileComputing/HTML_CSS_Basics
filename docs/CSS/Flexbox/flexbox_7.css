@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;  /* ALL fonts without serifs. */
+    background : aqua;
+}
+
+#container, header, #main, article, aside, footer {
+    box-sizing: border-box;
+}
+
+#container {
+    width       : 960px;
+    background  : yellow;
+    padding     : 0.5em;   /* Space around all four sides */
+    margin-left : auto;
+    margin-right: auto;    /* Set the left and right margins to "auto" for centering. */
+}
+
+header {
+    width     : 940px;
+    background: silver;
+    padding   : 0.5em;    /* Space around all four sides */
+}
+
+#main {
+    display      : flex;    /* Lay out article and aside side by side. */
+    margin-top   : 0.5em;   /* Space above the element */
+    margin-bottom: 0.5em;   /* Space below the element */
+}
+
+article {
+    background: orange;
+
+    flex-grow  : 1;
+    flex-shrink: 1;
+    flex-basis : 0%;
+    /*
+        flex-basis: "starting point" size before growing/shrinking is calculated. Setting it to 0% means the
+        browser ignores the element's natural content width and instead calculates its size purely
+        based on the flex-grow
+    */
+
+    /* short form for flew-grow=flex-shrink=flex-basis=1: flex=1 */
+
+    padding   : 0.5em;    /* Space around all four sides */
+}
+
+aside {
+    background : white;
+    width      : 250px;
+    flex-shrink: 0;    /* Keep the fixed width instead of shrinking. */
+    margin-left: 0.5em;    /* Space between article and aside */
+    padding    : 0.5em;    /* Space around all four sides */
+}
+
+footer {
+    width     : 940px;    /* Can also be omitted, because a block element spans the full width of its container */
+    background: silver;
+    padding   : 0.5em;    /* Space around all four sides */
+}
