@@ -6,12 +6,17 @@ h2 {
     margin-top: 2em;
 }
 
+/* Grid with nine cells in three rows and three columns, each 100px by 100px */
 .grid-container-3x3 {
     display              : grid;
     grid-template-columns: 100px 100px 100px; /* 3 columns of 100px each */
     grid-template-rows   : 100px 100px 100px; /* 3 rows    of 100px each */
 }
 
+/*
+ * No grid-column or grid-row properties are set, so the cells will be
+ * placed in the order they appear in the HTML .
+ */
 #grid-a-cell-1 { background-color: red;    }
 #grid-a-cell-2 { background-color: green;  }
 #grid-a-cell-3 { background-color: blue;   }
