@@ -5,14 +5,15 @@ body {
 .game-board {
     display              : grid;
     grid-template-columns: 100px 100px 100px; /* 3 columns of 100px each */
-    grid-template-rows   : 100px 100px 100px; /* 3 rows of 100px each */
+    grid-template-rows   : 100px 100px 100px; /* 3 rows    of 100px each */
     gap                  : 5px;
 }
 
 .cell {
     border         : 2px solid black;
+    font-size      : 40px;
+
     display        : flex;
     justify-content: center;
     align-items    : center;
-    font-size      : 40px;
 }
