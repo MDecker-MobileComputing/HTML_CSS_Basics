@@ -39,21 +39,41 @@ h2 {
     grid-row        : 3;
 }
 
-#grid-b-stripe-1 {
+#grid-b-horizontal-stripe-1 {
     background-color : red;
     grid-column-start: 1;
     grid-column-end  : span 2;
     grid-row         : 1;
 }
-#grid-b-stripe-2 {
+#grid-b-horizontal-stripe-2 {
     background-color : purple;
     grid-column-start: 2;
     grid-column-end  : span 2;
     grid-row         : 2;
 }
-#grid-b-stripe-3 {
+#grid-b-horizontal-stripe-3 {
     background-color : silver;
     grid-column-start: 1;
     grid-column-end  : span 2;
     grid-row         : 3;
 }
+
+#grid-c-vertical-stripe-1 {
+    background-color : red;
+    grid-column      : 1;
+    grid-row-start   : 1;
+    grid-row-end     : span 2;
+}
+#grid-c-vertical-stripe-2 {
+    background-color : purple;
+    grid-column      : 2;
+    grid-row-start   : 2;
+    grid-row-end     : span 3;
+}
+#grid-c-vertical-stripe-3 {
+    background-color : silver;
+    grid-column      : 3;
+    grid-row-start   : 1;
+    grid-row-end     : span 2;
+}
+
