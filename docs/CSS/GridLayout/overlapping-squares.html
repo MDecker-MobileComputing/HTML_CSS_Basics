@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS: Overlapping Squares</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="overlapping-squares.css">
+</head>
+<body>
+
+  <h1>CSS: Overlapping Squares</h1>
+
+  <h2>Example 1: Green square overlaps red square</h2>
+  <div class="grid-container-3x3">
+    <div class="grid-a-square-1"></div>
+    <div class="grid-a-square-2"></div>
+  </div>
+
+  <h2>Example 2: Red square overlaps green square (changed order)</h2>
+  <div class="grid-container-3x3">
+    <div class="grid-a-square-2"></div>
+    <div class="grid-a-square-1"></div><!-- the last element is rendered on top -->
+  </div>
+
+  <h2>Example 3: Red square overlaps green square (z-index)</h2>
+  <div class="grid-container-3x3">
+    <div class="grid-a-square-1 zindex-999"></div>
+    <div class="grid-a-square-2"></div>
+  </div>
+
+</body>

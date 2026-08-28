@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+.grid-container-3x3 {
+    display              : grid;
+    grid-template-columns: 100px 100px 100px; /* 3 columns of 100px each */
+    grid-template-rows   : 100px 100px 100px; /* 3 rows    of 100px each */
+}
+
+
+.grid-a-square-1 {
+    background-color : red;
+    grid-row-start   : 1;
+    grid-row-end     : span 2;
+    grid-column-start: 1;
+    grid-column-end  : span 2;
+}
+.grid-a-square-2 {
+    background-color : green;
+    grid-row-start   : 2;
+    grid-row-end     : span 2;
+    grid-column-start: 2;
+    grid-column-end  : span 2;
+}
+
+.zindex-999 {
+    z-index: 999;
+    /*
+     * The higher z-index value, the more "on top" the element is.
+     * We use here a very high value to make sure that the red square
+     * is on top of the green square.
+     *
+     * This property is only effective for positioned elements, i.e. elements with a position
+     * value other than static (the default). For positioned elements, z-index specifies the
+     * stack order of the element. I stack=auto for positioned elements, the stack order is
+     * determined by the order of the elements in the HTML. The last element is on top.
+     */
+}

@@ -9,7 +9,7 @@ h2 {
 .grid-container-3x3 {
     display              : grid;
     grid-template-columns: 100px 100px 100px; /* 3 columns of 100px each */
-    grid-template-rows   : 100px 100px 100px; /* 3 rows of 100px each    */
+    grid-template-rows   : 100px 100px 100px; /* 3 rows    of 100px each */
 }
 
 
