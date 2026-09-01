@@ -1,8 +1,8 @@
 body {
     font-family: sans-serif;
-    background: aqua;
-    margin: 0;
-    padding: 1.5em;
+    background : aqua;
+    margin     : 0;
+    padding    : 1.5em;
 }
 
 #container,
@@ -30,7 +30,7 @@ footer {
 
 #main {
     display              : grid;
-    grid-template-columns: minmax(0, 1fr) 250px;
+    grid-template-columns: minmax( 0, 1fr )  250px;
     gap                  : 0.5em;
 }
 
