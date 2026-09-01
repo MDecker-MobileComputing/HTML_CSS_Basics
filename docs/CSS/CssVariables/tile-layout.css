@@ -1,0 +1,27 @@
+body {
+
+    font-family: Arial, sans-serif;
+}
+
+
+.tile-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat( 2, 1fr ); /* Creates 2 equal-width  columns */
+    grid-template-rows   : repeat( 3, 1fr ); /* Creates 3 equal-height rows    */
+
+    column-gap           : 5em;
+    row-gap              : 5em;
+    margin-top           : 5em;
+}
+
+
+.tile {
+
+    background-color: lightsteelblue;
+    font-weight     : bold;
+    padding         : 1em;
+    text-align      : center;
+}
+
