@@ -1,6 +1,9 @@
+
 body {
 
     font-family: Arial, sans-serif;
+
+    --tile-gap: 3em; /* Variable for the gap between tiles */
 }
 
 
@@ -11,9 +14,9 @@ body {
     grid-template-columns: repeat( 2, 1fr ); /* Creates 2 equal-width  columns */
     grid-template-rows   : repeat( 3, 1fr ); /* Creates 3 equal-height rows    */
 
-    column-gap           : 5em;
-    row-gap              : 5em;
-    margin-top           : 5em;
+    column-gap           : var( --tile-gap );
+    row-gap              : var( --tile-gap );
+    margin-top           : var( --tile-gap );
 }
 
 
