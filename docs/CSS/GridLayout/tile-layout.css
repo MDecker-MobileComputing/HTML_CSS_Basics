@@ -14,9 +14,9 @@ body {
     grid-template-columns: repeat( 2, 1fr ); /* Creates 2 equal-width  columns */
     grid-template-rows   : repeat( 3, 1fr ); /* Creates 3 equal-height rows    */
 
-    column-gap           : var( --tile-gap );
-    row-gap              : var( --tile-gap );
-    margin-top           : var( --tile-gap );
+    column-gap: var( --tile-gap );
+    row-gap   : var( --tile-gap );
+    margin-top: var( --tile-gap );
 }
 
 
